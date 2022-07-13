@@ -6,6 +6,7 @@ function App() {
 
   return (
     <div className='App'>
+      <h1>This React App is deployed at Azure</h1>
       <h1>React + GraphQl and Learning Docker {name}</h1>
       <input value={name} onChange={(event) => setName(event.target.value)} />
       <img
